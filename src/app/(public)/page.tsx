@@ -1,4 +1,5 @@
 import DiscountBanner from "@/components/module/Home/DiscountBanner";
+import FeaturedProducts from "@/components/module/Home/FeaturedProducts";
 import Features from "@/components/module/Home/Features";
 import Hero from "@/components/module/Home/Hero";
 import HotDeals from "@/components/module/Home/HotDeals";
@@ -16,6 +17,7 @@ export default function page() {
             <PromotionalBanners/>
             <HotDeals/>
             <DiscountBanner/>
+            <FeaturedProducts/>
         </div>
     );
 }
