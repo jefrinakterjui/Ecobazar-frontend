@@ -2,6 +2,7 @@ import Features from "@/components/module/Home/Features";
 import Hero from "@/components/module/Home/Hero";
 import PopularCategories from "@/components/module/Home/PopularCategories";
 import PopularProducts from "@/components/module/Home/PopularProducts";
+import PromotionalBanners from "@/components/module/Home/PromotionalBanners";
 
 export default function page() {
     return (
@@ -10,6 +11,7 @@ export default function page() {
             <Features />
             <PopularCategories/>
             <PopularProducts/>
+            <PromotionalBanners/>
         </div>
     );
 }
