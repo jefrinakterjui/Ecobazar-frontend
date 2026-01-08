@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-
 interface Category {
   id: number;
   name: string;
@@ -47,19 +46,19 @@ const PopularCategories = () => {
               href={`/shop/${item.slug}`}
               className="group block"
             >
-              <div className="border border-gray-100 rounded-lg p-6 text-center hover:border-primary  transition-all duration-300 bg-white h-full flex flex-col items-center justify-center gap-4">
+              <div className="border border-gray-100 rounded-lg p-4 text-center hover:border-primary hover:shadow-lg transition-all duration-300 bg-white h-full flex flex-col items-center justify-center gap-4">
                 
-                <div className="relative w-full h-25 flex items-center justify-center">
+                <div className="relative w-full h-32.5 flex items-center justify-center">
                   <Image
                     src={item.image}
                     alt={item.name}
-                    width={100} 
-                    height={90}
-                    className="object-contain transition-transform duration-300 group-hover:scale-110"
+                    width={180} 
+                    height={180}
+                    className="object-contain h-full w-auto transition-transform duration-300 group-hover:scale-110"
                   />
                 </div>
 
-                <h3 className="text-gray-900 font-medium text-base group-hover:text-primary transition-colors">
+                <h3 className="text-gray-900 font-medium text-lg group-hover:text-primary transition-colors">
                   {item.name}
                 </h3>
               </div>
