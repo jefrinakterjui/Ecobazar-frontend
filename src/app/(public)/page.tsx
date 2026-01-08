@@ -1,3 +1,4 @@
+import ClientTestimonials from "@/components/module/Home/ClientTestimonials";
 import DiscountBanner from "@/components/module/Home/DiscountBanner";
 import FeaturedProducts from "@/components/module/Home/FeaturedProducts";
 import Features from "@/components/module/Home/Features";
@@ -20,6 +21,7 @@ export default function page() {
             <DiscountBanner/>
             <FeaturedProducts/>
             <LatestNews/>
+            <ClientTestimonials/>
         </div>
     );
 }
