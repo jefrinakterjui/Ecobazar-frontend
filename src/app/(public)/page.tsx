@@ -5,6 +5,7 @@ import FeaturedProducts from "@/components/module/Home/FeaturedProducts";
 import Features from "@/components/module/Home/Features";
 import Hero from "@/components/module/Home/Hero";
 import HotDeals from "@/components/module/Home/HotDeals";
+import InstagramFeed from "@/components/module/Home/InstagramFeed";
 import LatestNews from "@/components/module/Home/LatestNews";
 import PopularCategories from "@/components/module/Home/PopularCategories";
 import PopularProducts from "@/components/module/Home/PopularProducts";
@@ -24,6 +25,7 @@ export default function page() {
             <LatestNews/>
             <ClientTestimonials/>
             <CompanyLogos/>
+            <InstagramFeed/>
         </div>
     );
 }
