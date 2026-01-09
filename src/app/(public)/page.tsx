@@ -7,6 +7,7 @@ import Hero from "@/components/module/Home/Hero";
 import HotDeals from "@/components/module/Home/HotDeals";
 import InstagramFeed from "@/components/module/Home/InstagramFeed";
 import LatestNews from "@/components/module/Home/LatestNews";
+import Newsletter from "@/components/module/Home/Newsletter";
 import PopularCategories from "@/components/module/Home/PopularCategories";
 import PopularProducts from "@/components/module/Home/PopularProducts";
 import PromotionalBanners from "@/components/module/Home/PromotionalBanners";
@@ -26,6 +27,7 @@ export default function page() {
             <ClientTestimonials/>
             <CompanyLogos/>
             <InstagramFeed/>
+            <Newsletter/>
         </div>
     );
 }
