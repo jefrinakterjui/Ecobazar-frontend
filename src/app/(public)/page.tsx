@@ -1,4 +1,5 @@
 import ClientTestimonials from "@/components/module/Home/ClientTestimonials";
+import CompanyLogos from "@/components/module/Home/CompanyLogos";
 import DiscountBanner from "@/components/module/Home/DiscountBanner";
 import FeaturedProducts from "@/components/module/Home/FeaturedProducts";
 import Features from "@/components/module/Home/Features";
@@ -22,6 +23,7 @@ export default function page() {
             <FeaturedProducts/>
             <LatestNews/>
             <ClientTestimonials/>
+            <CompanyLogos/>
         </div>
     );
 }
